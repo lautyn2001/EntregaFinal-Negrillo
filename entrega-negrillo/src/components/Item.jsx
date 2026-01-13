@@ -6,7 +6,9 @@ function Item({ item }) {
       <img src={item.image} alt={item.title} />
       <h3>{item.title}</h3>
       <p>${item.price}</p>
-      <Link className="btn" to={`/item/${item.id}`}>Ver detalle</Link>
+      <Link className="btn" to={`/item/${item.id}`}>
+        Ver detalle
+      </Link>
     </div>
   );
 }
