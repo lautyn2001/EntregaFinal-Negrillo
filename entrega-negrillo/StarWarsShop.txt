@@ -1,0 +1,18 @@
+Star Wars Shop es una aplicación web hecha con React que simula una tienda online basada en el universo de Star Wars. 
+El proyecto busca aplicar conceptos de desarrollo frontend moderno, organización de componentes y conexión con bases de datos en la nube.
+
+La aplicación está desarrollada con React-Vite y organizada en carpetas como components, pages, context, services y styles para mantener el código ordenado y fácil de entender. 
+La navegación se maneja con React Router, permitiendo moverse entre la página principal, categorías, detalle de productos, carrito, checkout y contacto.
+
+Los productos se guardan en Firebase Firestore, desde donde se obtienen para mostrarlos, filtrarlos por categoría y ver su detalle. 
+El carrito se maneja con React Context, lo que permite agregar, quitar y modificar cantidades de productos desde cualquier parte de la app.
+
+En el checkout el usuario carga sus datos y se genera una orden que se guarda en Firestore, junto con los productos comprados, el total y la fecha. 
+El número de orden es secuencial y se maneja con una colección especial de contadores.
+
+También hay una página de contacto que guarda los mensajes en Firebase, simulando un sistema real de consultas.
+
+El diseño se realizó con CSS separado por páginas, usando tarjetas para productos y formularios simples para compra y contacto.
+El proyecto es educativo y muestra cómo funciona una tienda online desde el frontend, conectada a una base de datos en la nube y con una estructura pensada para seguir creciendo.
+
+
